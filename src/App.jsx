@@ -1,12 +1,10 @@
-import './App.css'
-import Layout from './Layout/Layout'
+import Todo from './page/Todo'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-     <Layout/>
-    </>
+    <div>
+      <Todo/>
+    </div>
   )
 }
 

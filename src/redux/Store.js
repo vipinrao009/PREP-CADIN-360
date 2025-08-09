@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit"
-import userReducer  from "../redux/slices/AuthSlice.js"
+import studentReducer from '../redux/slices/StudentSlice'
 
 export const store = configureStore({
     reducer:{
-        user:userReducer
+        students:studentReducer
     }
 })
