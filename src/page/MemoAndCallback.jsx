@@ -50,5 +50,3 @@ const ChildComponent = React.memo(({ onClick }) => {
 
 export default MemoAndCallback;
 
-
-// this is done by vipin
